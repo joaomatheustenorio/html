@@ -1,0 +1,42 @@
+@charset "UTF-8" 
+ /*
+    Medidas absolutas;
+    cm, mm, in(polegadas), px, pt, pc
+
+    Medidas relativas;
+    em(altura "M" da fonte), ex(altura 
+    "x" da fonte), vw(largura da tela), vh(altura da tela). %
+
+
+    mais recomendadas px, em
+    16px = 1em
+    16px e o tamanho normal
+    */
+body{
+    background-image: linear-gradient(90deg,#005C53,#042940 );
+    font-family:Arial, Helvetica, sans-serif;;
+    font-size: 1em;
+}
+p{
+    text-align: align;
+    color:#000000;
+}
+h1{
+    color: #9FC131;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+h2{
+    color: #c7db30;
+}
+main{
+    width: 300px;
+    box-shadow: 5px 10px 15px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    margin: auto;
+    border-radius: 70px;
+}
+h1 , h2{
+    font-family: 'Times New Roman', Times, serif;
+}

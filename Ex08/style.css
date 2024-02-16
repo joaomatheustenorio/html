@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Gothiclondon ;
+    src: url(arquivos/fonts/old_london/OldLondon.ttf) format('truetype'), url(arquivos/fonts/old_london/Olondon_.otf) format('opentype');
+    font-weight: normal;
+    /*
+    tipos de fontes; {
+        opentype(otf)
+        truetype(ttf)
+        embedded-opentype
+        truetype-aat
+        svg
+    }
+    */
+}
+body{
+    background-image:linear-gradient(90deg,#6c9dd4, #30465E) ;
+    font-family: gothiclondon;
+}
+main{
+    background-color:white;
+    width: 20em;
+    margin: auto;
+    padding: 3%;
+    border-radius: 2em;
+    box-shadow: 1em 1em 1em #274a72;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

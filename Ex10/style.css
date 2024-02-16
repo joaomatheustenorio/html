@@ -1,0 +1,55 @@
+@charset "UTFf-8";
+/*
+Em HTML e ID e em CSS e #
+Em HTML e class em CSS e .
+
+quando for selecionar um estilo nao e necessario a tag antes do # apenaaas o #id
+*/
+*{ font-family: 'Courier New', Courier, monospace;
+font-weight: bold;}
+body{
+    background-color: rgb(20, 29, 28);
+}
+main{
+    background-color: rgb(0, 0, 0);
+    width: 13em;
+    padding: 3%;
+    border-radius: 2em;
+    margin: auto;
+    display: inline-block;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: initial;
+}
+#principal{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #ffffff; 
+    color: black;
+    border-radius: 2em;
+}
+.basico{
+    background-color: rgb(6, 58, 19);
+    text-align: center;
+}
+.intermediario{
+    background-color: rgb(136, 64, 6);
+    text-align: center;
+}
+.avancado{
+    background-color: rgb(58, 1, 1);
+    text-align: center;
+}
+.destaque{
+    background-color: rgba(91, 88, 92, 0.479);
+}
+#css {
+    margin: left ;
+}

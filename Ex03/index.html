@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="midia/imagens/favicon.ico" type="image/x-icon">
+    <title>midias no site</title>
+</head>
+<body>
+    <hr>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em dispositivos diferentes  </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midia/imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midia/imagens/m.png" type="image/png">
+        <img src="midia/imagens/g.png" alt="imagem ajustavel">
+    </picture>
+    <hr>
+    <h1>audios no site</h1>
+<audio controls>
+    <source src="midia/sounds/musica.mp3" type="audio/mpeg">
+    <p>seu navegador nao e compativel com este tipo de audio clique <a href="midia/sounds/musica.mpeg" download="musica.m4a">aqui</a> para fazer o download do arquivo
+    </p>
+    </audio>
+    <hr>
+    <h1>videos no site</h1>
+    <video src="midia/video/video.mp4" controls poster="midia/imagens/thumb.png" width="400">
+        <source src="midia/video/video.webm" type="videp/webm">
+    </video>
+    <p>esse video esta sendo carregado dentro do meu site e esta consumindo trafego e isso pode pesar no bolso do meu clinte para evitar que isso aconteça use videos do youtube
+    </p>
+    <hr>
+    <h1>carregando videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=lY4uYg2ZpEDhwt5y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>este video esta sendo carregado no youtube e nao esta consumindo trafego do meu site</p>
+    <hr>
+    <h1>carregando video do vimeo</h1>
+    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/888291568?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:500px;height: 500px;" title="Set up your first video"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </body>
+    </html>
